@@ -4,6 +4,8 @@
 
 **Acesse:** [samuelsantos.site/tutoriais](https://samuelsantos.site/tutoriais)
 
+![Tutorial Preview](img/Macbook-Air-127.0.0.1.png)
+
 ---
 
 ## Sobre
