@@ -300,6 +300,10 @@
             background: var(--orange-badge);
         }
 
+        .tutorial-level.artigo {
+            background: var(--accent-teal);
+        }
+
         .tutorial-content {
             padding: 1.5rem;
             flex: 1;
@@ -516,6 +520,7 @@
         <div class="filters">
             <button class="filter-btn active" data-filter="all">Todos</button>
             <button class="filter-btn" data-filter="qgis">QGIS</button>
+            <button class="filter-btn" data-filter="postgis">PostGIS / SQL</button>
             <button class="filter-btn" data-filter="python">Python</button>
             <button class="filter-btn" data-filter="gee">Google Earth Engine</button>
             <button class="filter-btn" data-filter="javascript">JavaScript</button>
@@ -526,6 +531,26 @@
     <!-- Tutorials Grid -->
     <div class="tutorials-container">
         <div class="tutorials-grid">
+            <!-- Artigo Técnico: Índice Espacial no PostGIS e QGIS -->
+            <div class="tutorial-card" data-tags="qgis postgis">
+                <div class="tutorial-image">
+                    <img src="img/artigo-indice-espacial.png" alt="Por que sua consulta espacial trava o computador?">
+                    <span class="tutorial-level artigo">Artigo Técnico</span>
+                </div>
+                <div class="tutorial-content">
+                    <h3 class="tutorial-title">Por que sua consulta espacial trava o computador?</h3>
+                    <p class="tutorial-description">O que realmente acontece por baixo do capô ao rodar consultas sem índice: algoritmo de ray casting, árvore R-Tree, poda de ramos e testes em duas etapas no PostGIS e QGIS</p>
+                    <div class="tutorial-tags">
+                        <span class="tech-tag">PostGIS</span>
+                        <span class="tech-tag">QGIS</span>
+                        <span class="tech-tag">SQL</span>
+                    </div>
+                    <a href="https://samuelsantos.site/artigo-indice-espacial/" class="tutorial-link">
+                        Ler Artigo Completo →
+                    </a>
+                </div>
+            </div>
+
 
             <!-- Tutorial 1: PyQGIS MapBiomas -->
             <div class="tutorial-card" data-tags="qgis python">
